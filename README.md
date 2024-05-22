@@ -1,5 +1,5 @@
-## Hi there 👋
-
+## Hello!! 👋
+My name is Seung bin Lee!! From Daejeon.
 <!--
 **void1007/void1007** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
