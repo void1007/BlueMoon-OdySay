@@ -16,6 +16,7 @@ html,body{
     height: 100%;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 a
@@ -66,6 +67,11 @@ nav > li{
 nav > li > a
 {
     color: #054AA5;
+    transition: 0.5s;
+}
+
+nav > li > a:hover{
+    opacity: 0.6;
 }
 
 
@@ -95,67 +101,604 @@ nav > li > a
     height: 30px;
 }
 
-
-
-.IconButton{
-    display: block;
-
-}
-
-.IconButton > img{
-    width: 98px;
-    height: 98px;
+.content-Wrapper{
+    width: 100%;
+    height: auto;
 }
 
 .Banner1{
     width: 100%;
-    height: 1225px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../BlueMoonImages/BannerImage/BlueMonnBanner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.BannerText{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8%;
+}
+
+.BannerText p{
+    width: auto;
+    height: auto;
+    font-family: 'DNFForgedBlade';
+    color: #054AA5;
+    font-size: 45px;
+    text-align: center;
+}
+
+.BannerText > div{
+    width: 50px;
+    height: 1px;
+    border-bottom: 3px solid #71A1E5;
+    margin: 4% 0;
+}
+
+.BannerText p:nth-child(3){
+    color: #71A1E5;
+    font-size: 25px;
+}
+
+.Banner-menu{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    margin: 4% 0;
+}
+
+.Banner-menu > ul{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.Banner-menu >ul > li{
+    width: 200px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    border: #054AA5 2px solid;
+    border-right: none;
+    font-family: 'DNFForgedBlade';
+    font-size: 16px;
+}
+
+.Banner-menu > ul > li:last-child{
+    border-right: 2px solid #054AA5;
+}
+
+.Banner-menu > ul > li > a{
+    color:#71a1e5;
+    transition: 0.5s;
+}
+
+.Banner-menu > ul > li > a:hover{
+    color:#054AA5;
+}
+
+.MainTitle{
+    width: 100%;
+    height: auto;
+    font-size: 50px;
+    color: #054AA5;
+    text-align: center;
+    margin: 2.5% 0;
+    font-weight: 500;
+}
+
+.SubTitle{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 20px;
+    color: #054AA5;
+    margin-top: 4%;
+}
+
+.SubTitle2{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-weight: bold;
+    color: #054AA5;
+    font-size: 35px;
+    margin: 1% 0;
+}
+
+.Descirption{
+    width: 100%;
+    height: auto;
+    color: #054AA5;
+    font-family: 'DNFForgedBlade';
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin:2% 0;
+}
+
+.LogoDesign{
+    width: 1150px;
+    height: 415px;
+    margin: 4% 0 4% 385px;
+    background-image: url(../BlueMoonImages/BannerImage/LogoDesciption.png);    
+}
+
+.LogoExam{
+    width: 1200px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:4% 0 4% 360px;
+    border-bottom : 3px solid #054AA5;
+}
+
+.LogoExam > img:nth-child(1) {
+    width: 353px;
+    height: 101px;
+}
+
+.LogoExam > img:nth-child(2){
+    width: 143.22px;
+    height: 189px;
+}
+
+.LogoExam > img:nth-child(3){
+    width: 356px;
+    height: 101px;
+}
+
+.BrandColor{
+    color: #054AA5;
+    font-family: 'DNFForgedBlade';
+    font-size: 15px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.BrandTitle{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: #054AA5;
+    font-size: 25px;
+    margin: 1% 0;
+    font-weight: bold;
+}
+
+.Color-Content{
+    width: 1200px;
+    height: auto;
+    display: flex;
+    margin-left: 360px;
+    justify-content: center;
+}
+
+.Color-Content > div{
+    width: 288px;
+    height: 234px;
+    border: 1px solid #054AA5;
+    margin: 1.5%;
+}
+
+.Sapphire{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.Sapphire > div{
+    background-color: #054AA5;
+    width: 222px;
+    height: 40px;
+}
+
+.Sapphire > p{
+    height: auto;
+    width: auto;
+    color: #054AA5;
+    font-family: 'DNFForgedBlade';
+    font-size: 20px;
+    margin: 8% 0;
+}
+
+.Sapphire > span{
+    font-size: 15px;
+    height: auto;
+    color: #054AA5;
+    font-family: 'DNFForgedBlade';
+}
+
+.Cornflowerblue{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.Cornflowerblue > div{
+    background-color: #71a1e5;
+    width: 222px;
+    height: 40px;
+}
+
+.Cornflowerblue > p{
+    height: auto;
+    width: auto;
+    color: #71a1e5;
+    font-family: 'DNFForgedBlade';
+    font-size: 20px;
+    margin: 8% 0;
+}
+
+.Cornflowerblue > span{
+    font-size: 15px;
+    height: auto;
+    color: #71a1e5;
+    font-family: 'DNFForgedBlade';
+}
+
+.SilverGray{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.SilverGray > div{
+    background-color: #c1c1c1;
+    width: 222px;
+    height: 40px;
+}
+
+.SilverGray > p{
+    height: auto;
+    width: auto;
+    color: #c1c1c1;
+    font-family: 'DNFForgedBlade';
+    font-size: 20px;
+    margin: 8% 0;
+}
+
+.SilverGray > span{
+    font-size: 15px;
+    height: auto;
+    color: #c1c1c1;
+    font-family: 'DNFForgedBlade';
+}
+
+.ColorCombination{
+    width: 1200px;
+    height: auto;
+    margin: 5% 0 5% 360px;
+    display: block;
+}
+
+.Comb1{
+    width: 100%;
+    display: flex;
+    margin: 3% 0;
+}
+
+.CS{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.CS > p{
+    color: #000;
+    font-family: 'DNFForgedBlade';
+    margin-bottom: 1%;
+    font-weight: bold;
+}
+
+.CS > p:nth-child(2){
+    width: 432px;
+    height: 63px;
+    background-color: #71A1E5;
+    text-align: center;
+    line-height: 63px;
+    color: #c1c1c1;
+    font-size: 32.5px;
+    font-weight: bold;
+}
+
+.SS{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.SS > p{
+    color: #000;
+    font-family: 'DNFForgedBlade';
+    margin-bottom: 1%;
+    font-weight: bold;
+}
+
+.SS > p:nth-child(2){
+    width: 432px;
+    height: 63px;
+    background-color: #c1c1c1;
+    text-align: center;
+    line-height: 63px;
+    color: #054AA5;
+    font-size: 32.5px;
+    font-weight: bold;
+}
+
+.Comb2{
+    width: 100%;
+    display: flex;
+    margin: 3% 0;
+}
+
+.SAC{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.SAC > p{
+    color: #000;
+    font-family: 'DNFForgedBlade';
+    margin-bottom: 1%;
+    font-weight: bold;
+}
+
+.SAC > p:nth-child(2){
+    width: 432px;
+    height: 63px;
+    background-color: #054AA5;
+    text-align: center;
+    line-height: 63px;
+    color: #71A1E5;
+    font-size: 32.5px;
+    font-weight: bold;
+}
+
+.CSA{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.CSA > p{
+    color: #000;
+    font-family: 'DNFForgedBlade';
+    margin-bottom: 1%;
+    font-weight: bold;
+}
+
+.CSA > p:nth-child(2){
+    width: 432px;
+    height: 63px;
+    background-color: #71A1E5;
+    text-align: center;
+    line-height: 63px;
+    color: #054AA5;
+    font-size: 32.5px;
+    font-weight: bold;
+}
+
+.CoreValues{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1093px;
+    background-color: #c1c1c1;
+}
+
+.CoreValuesTitle{
+    color: #054AA5;
+    font-family: 'DNFForgedBlade';
+    font-size: 46px;
+    font-weight: bold;
+    margin: 2% 0;
+    height: auto;
+    width: auto;
+}
+
+.BetweenLine{
+    width: 60px;
+    height: 1px;
+    border: 1px solid #054AA5;
+    margin-bottom: 4%;
+}
+
+.SharedGrowth{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Growthicon{
+    width: 233px;
+    height: 233px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
 }
 
-.Banner2{
-    width: 100%;
-    height: 632px;
+.ValuesDescriptions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.Banner3{
-    width: 100%;
-    height: 787px;
-}
-
-.Banner4{
-    width: 100%;
-    height: 1031px;
-}
-
-.Banner5{
-    width: 100%;
-    height: 412px;
-    margin-bottom: 10%;
-}
-
-.IconButton{
-    position: absolute;
+.WalkIcon{
+    width: 126px;
+    height: 115px;
+    position: relative;
     z-index: 2;
-    width: 98px;
-    height: 200px;
-    display: block;
-    right: 1%;
-    top: 45%;
 }
 
-.IconButton img{
-    width: 98px;
-    height: 98px;
+.TalkIcon{
+    width: 113px;
+    height: 113px;
+    position: relative;
+    z-index: 2;
 }
 
-.TopButton{
-    width: 60px;
-    height: 60px;
-    position: fixed;
-    z-index: 3;
-    right: 1%;
-    top: 45%;
+.CheckIcon{
+    width: 111px;
+    height: 80px;
+    position: relative;
+    z-index: 2;
+}
+
+.Growthicon > div{
+    width: 70px;
+    height: 70px;
+    background-color: #71A1E5;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+}
+
+.SharedGrowth > p{
+    width: 1000px;
+    text-align: start;
+    color: #71A1E5;
+    font-size: 22.5px;
+    line-height: 40px;
+    margin-left: 4%;
+    padding-left: 8%;
+}
+
+.SharedGrowth > p > b:first-child{
+    color: #054AA5;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.SharedGrowth > p > b{
+    color: #054AA5;
+    font-size: 22.5px;
+    font-weight: bold;
+    background-color: #71A1E5;
+}
+
+.LastContent{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.LastTitle{
+    width: 100%;
+    height: auto;
+    color: #054AA5;
+    font-family: 'DNFForgedBlade';
+    font-size: 45px;
+    text-align: center;
+    margin-top: 8%;
+}
+
+.TitleLine{
+    width: 240px;
+    height: 1px;
+    border-bottom:3px solid #054AA5;
+    margin: 2% 0;
+}
+
+.LastContent1{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    margin:4% 0 8% 0;
+}
+
+.LastContent1 > img{
+    width: 582px;
+    height: 437px;
+    margin-left: 4%;
+}
+
+.LastContentText{
+    width: auto;
+    height: 100%;
+}
+
+.LastContentText > p:first-child{
+    color: #054AA5;
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-size: 22.5px;
+}
+
+.LastContentText > p:nth-child(2){
+    color: #054AA5;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    line-height: 40px;
+    margin: 2% 0 8% 0;
+}
+
+.LastContentText > p:last-child{
+    font-size: 20px;
+    color: #71A1E5;
+    font-weight: lighter;
+    letter-spacing: 0;
+    line-height: 32px;
+}
+
+.LastContentText > p > b{
+    color: #054AA5;    
+}
+
+.LastContent2{
+display: flex;
+justify-content: center;
+align-items: center;    
+margin-bottom: 12%;
+}
+
+.LastContent2 > img{
+    width: 582px;
+    height: 437px;
+    margin-right: 4%;
 }
 
 footer{
