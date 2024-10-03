@@ -133,256 +133,140 @@ nav > ul > li > a:hover{
     cursor: pointer;
 }
 
-.Banner1{
+/*헤더종료*/
+
+.MenTitle{
     width: 100%;
-    height: 1032px;
-    background-image: url(../OdySayImage/Banner/Banner1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
-.Banner1Bt{
-    width: 101px;
     height: auto;
-    position: absolute;
-    bottom: 1%;
-    right: 2%;
-}
-
-.OnetoOne:hover{
-    opacity: 0.7;
-}
-
-.TopBt:hover{
-    opacity: 0.7;
-}
-
-.MainTitle{
-    height: auto;
-    width: 100%;
+    text-align: center;
+    margin: 4% 0;
     font-size: 50px;
-    text-align: center;
-    font-weight: bold;
-    margin: 1% 0;
+    font-family: 'ROKABold';
     color: #333;
 }
 
-.SubTitle{
-    height: auto;
+.ItemNav{
     width: 100%;
-    font-size: 25px;
-    text-align: center;
-    margin: 1% 0;
-    color: #333;
-}
-
-.Banner2{
-    width: 100%;
-    height: 900px;
-    background-image: url(../OdySayImage/Banner/Banner2.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.Menu{
-    width: 100%;
-    height: auto;
+    height: 88px;
     display: flex;
     list-style-type: none;
-    margin: 4% 0;
-}
-
-.Menu > li{
-    text-align: center;
-    font-size: 50px;
-    border-right: 2px solid #B9B3B3;
-}
-
-.Menu > li:last-child{
-    border: none;
-}
-
-
-.Menu > li > a{
-    color: #B9B3B3;
-    transition: 0.5s;
-    font-weight: 'ROKABold';
-    font-weight: 600;
-}
-
-.Menu > li > a:hover{
-    color: #333;
-}
-
-.BoTitle{
-    width: 100%;
-    height: auto;
-    font-size: 100px;
-    font-weight: bold;
-    text-align: center;
-    color: #898989;
-    margin: 2% 0;
-}
-
-.BoLine{
-    width: 100%;
-    height: 1px;
-    border: #898989 solid 1px;
-    margin: 2% 0;
-}
-
-.BoWrapper{
-    width: 100%;
-    height: auto;
-    display: flex;
+    border-top: #333 1px solid;
+    border-bottom: #333 1px solid;
     justify-content: space-around;
+    margin-bottom: 4%;
 }
 
-.Item {
-    width: 315px;
+.ItemNav > li{
+    display: flex; 
+    align-items: center;
+    text-align: center; 
+    height: 100%;  
+}
+
+.ItemNav > li > a{
+    width: 100%;
+    color: #333;
+    font-size: 30px;
+    font-family: 'ROKABold';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.7;
+    transition: 0.7s;
+}
+
+.ItemNav > li > a:hover{
+    opacity: 1;
+}
+
+.Item-Number{
+    width: 100%;
     height: auto;
-    display: block;
+    font-size: 20px;
+    text-align: left;
+    margin: 4% 0 4% 4%;
 }
 
-.Item > img{
-    width: 315px;
-    height: 400px;
+.ItemWrap{
+    width: 100%;
+    height: auto;
+}
+
+.ItemContent{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.ItemImg{
+    width: 345px;
+    height: 459px;
+    border: #999 2px solid;
+    display: flex;
+    align-items: center;
+}
+
+.Item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .Item > p{
     width: 100%;
-    text-align: center;
     height: auto;
     font-size: 20px;
-    font-weight: bold;
+    text-align: center;
     color: #333;
+    margin: 2% 0;
 }
 
-.Item > p:last-child{
+.Item > span{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    color: #333;
+    height: auto;
+    margin: 2% 0;
+}
+
+.Item > span > strong{
+    font-size: 15px;
     font-weight: 400;
 }
 
-.EventBannerWrap{
-    width: 100%;
-    height: auto;
-}
-
-.EvBanner{
-    width: 100%;
-    height: 620.31px;
-}
-
-.EvBanner > a{
-    width: 100%;
-    height: 100%;
-}
-
-.EvBanner > img{
-    width: 100%;
-    height: 100%;
-}
-
-.PopularityTitle{
-    width: 100%;
-    height: auto;
-    text-align: center;
-    font-size: 60px;
-    font-weight: bold;
-    color: #898989;
-    margin: 4% 0;
-}
-
-.Popularity{
-    width: auto;
-    height: auto;
+.Item-Icon{
     display: flex;
-    justify-content: center;
+    width: 100px;
+    height: 40px;
+    margin: 2% 0;    
 }
 
-.PopItem{
+.Item-Icon > a {
+display: flex;     
+justify-content: center;
+opacity: 1;
+transition: 0.5s;
+}
+
+.Item-Icon > a:hover{
+    opacity: 0.7;
+}
+
+.Item-Icon > a > img{
+    width: 40px;
+    height: 40px;
+}
+
+.Item-1{
     width: 345px;
-    display: block;
-    margin: 0 10px;
+    height: 345px;
 }
 
-.PopItem > p{
-    width: 100%;
-    text-align: center;
-    font-size: 20px;
-    color: #898989;
-}
 
-.PopItem > p:nth-child(2){
-    font-weight: bold;
-}
-
-.PopItem > div > img{
-    width: 345px;
-    height: 520px;
-}
-
-.LastContentTitle{
-    width: 100%;
-    height: auto;
-    font-size: 50px;
-    text-align: center;
-    font-weight: bold;
-    color: #898989;
-    margin: 3% 0;
-}
-
-.LastContentSubTitle{
-    width: 100%;
-    height: auto;
-    text-align: center;
-    color: #898989;
-    font-size: 17px;
-}
-
-.LastContentImg{
-    width: 100%;
-    height: 800px;
-    background-image: url(../OdySayImage/Banner/BottomBanner.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 3% 0;
-}
-
-.LineBanner{
-    width: 100%;
-    height: 144px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-top: 1px solid #898989;
-    border-bottom: 1px solid #898989;
-    margin-bottom: 10%;
-}
-
-.LineBanner > p:first-child{
-    width: 100%;
-    font-size: 85px;
-    color: #898989;
-    display: flex;
-    align-items: center;
-    width: auto;
-    font-weight: bold;    
-}
-
-.LineBanner > p:nth-child(2){
-    font-size: 20px;
-    display: flex;
-    align-items: center;
-    color: #898989;
-    width: auto;
-    margin: 0 16%;
-}
-
-.LineBanner > img{
-    width: 115px;
-    height: 144px;
-}
+/*푸터시작*/
 
 footer{
     width: 100%;
@@ -456,3 +340,5 @@ select{
     right: 2%;
     bottom: 20px;
 }
+
+/*푸터 끝*/
