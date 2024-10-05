@@ -198,6 +198,7 @@ nav > ul > li > a:hover{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
+    margin: 4% 0;
 }
 
 .ItemImg{
@@ -263,6 +264,31 @@ transition: 0.5s;
 .Item-1{
     width: 345px;
     height: 345px;
+}
+
+.Change-Number-Page{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 5px;
+    color: #777;
+    margin: 4% 0;
+}
+
+.Change-Number-Page > a{
+    opacity: 1;
+    transition: 0.8s;
+}
+
+.Change-Number-Page > a:hover{
+    opacity: 0.6;
+}
+
+.Change-Number-Page > a:first-child{
+    font-weight: bold;
+    color: #000;
+    border-bottom: 1px solid #000;
 }
 
 
