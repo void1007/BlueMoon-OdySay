@@ -135,188 +135,104 @@ nav > ul > li > a:hover{
 
 /*헤더종료*/
 
-.Button-Wrap{
-    width: 102px;
-    height: 375px;
-    position: fixed;
-    z-index: 2;
-    right: 2%;
+.CartWrapper{
+    width: 100%;
+    height: auto;
+}
+
+.CartUpContent{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.GoodsInfo{
+    width: calc(50% - 40px);
+    height: auto;
+    margin: 0 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     align-items: center;
 }
 
-.Button-Wrap > a{
+.GoodsInfo > ul{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    border-top: 1px solid #333;
+    border-bottom: 2px solid #333;
+    padding: 0;
+    text-align: center;
+}
+
+.GoodsInfo > ul > li{
+    font-size: 20px;
     width: auto;
     height: auto;
-    opacity: 1;
-    transition: 0.8s;
+    display: flex;
+    align-items: center;
 }
 
-.Button-Wrap > a:hover{
-    opacity: 0.6;
-}
-
-.MenTitle{
+.GoodsInfo > p{
     width: 100%;
     height: auto;
     text-align: center;
-    margin: 4% 0;
-    font-size: 50px;
-    font-family: 'ROKABold';
-    color: #333;
-}
-
-.ItemNav{
-    width: 100%;
-    height: 88px;
-    display: flex;
-    list-style-type: none;
-    border-top: #333 1px solid;
-    border-bottom: #333 1px solid;
-    justify-content: space-around;
-    margin-bottom: 4%;
-}
-
-.ItemNav > li{
-    display: flex; 
-    align-items: center;
-    text-align: center; 
-    height: 100%;  
-}
-
-.ItemNav > li > a{
-    width: 100%;
-    color: #333;
+    color: #666;
     font-size: 30px;
-    font-family: 'ROKABold';
+    margin: 20% 0;
+}
+
+.Go-Shop{
+    width: 300px;
+    height: 65px;
+    background-color: #333;
+    border-radius: 10px;
+    color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
-    opacity: 0.7;
-    transition: 0.7s;
-}
-
-.ItemNav > li > a:hover{
-    opacity: 1;
-}
-
-.Item-Number{
-    width: 100%;
-    height: auto;
     font-size: 20px;
-    text-align: left;
-    margin: 4% 0 4% 4%;
 }
 
-.ItemWrap{
-    width: 100%;
-    height: auto;
+.Go-Shop > img{
+    width: 25px;
+    height: 25px;
+    margin-left: 4%;
 }
 
-.ItemContent{
-    width: 100%;
-    height: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    margin: 4% 0;
-}
-
-.ItemImg{
-    width: 345px;
-    height: 459px;
-    border: #999 2px solid;
+.AmountInfo{
     display: flex;
-    align-items: center;
-}
-
-.Item{
-    display: flex;
-    align-items: center;
     flex-direction: column;
-}
-
-.Item > p{
-    width: 100%;
+    width: 359px;
     height: auto;
-    font-size: 20px;
-    text-align: center;
-    color: #333;
-    margin: 2% 0;
 }
 
-.Item > span{
+.Recipt{
+    background-image: url(../OdySayImage/Banner/Recipt.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
-    text-align: center;
-    font-size: 20px;
-    color: #333;
-    height: auto;
-    margin: 2% 0;
+    height: 369px;
 }
 
-.Item > span > strong{
-    font-size: 15px;
-    font-weight: 400;
-}
-
-.Item-Icon{
+.AmountInfo > a{
+    width: 100%;
+    height: 77px;
     display: flex;
-    width: 100px;
-    height: 40px;
-    margin: 2% 0;    
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: #fff;
 }
 
-.Item-Icon > a {
-display: flex;     
-justify-content: center;
-opacity: 1;
-transition: 0.5s;
+.AmountInfo > a:first{
+    background-color: #666;
 }
-
-.Item-Icon > a:hover{
-    opacity: 0.7;
-}
-
-.Item-Icon > a > img{
-    width: 40px;
-    height: 40px;
-}
-
-.Item-1{
-    width: 345px;
-    height: 345px;
-}
-
-.Change-Number-Page{
-    width: 100%;
-    height: auto;
-    text-align: center;
-    font-size: 30px;
-    letter-spacing: 5px;
-    color: #777;
-    margin: 4% 0;
-}
-
-.Change-Number-Page > a{
-    opacity: 1;
-    transition: 0.8s;
-}
-
-.Change-Number-Page > a:hover{
-    opacity: 0.6;
-}
-
-.Change-Number-Page > a:first-child{
-    font-weight: bold;
-    color: #000;
-    border-bottom: 1px solid #000;
-}
-
 
 /*푸터시작*/
-
 footer{
     width: 100%;
     height: 300px;position: relative;
@@ -389,5 +305,4 @@ select{
     right: 2%;
     bottom: 20px;
 }
-
 /*푸터 끝*/
