@@ -135,6 +135,30 @@ nav > ul > li > a:hover{
 
 /*헤더종료*/
 
+.Button-Wrap{
+    width: 102px;
+    height: 375px;
+    position: fixed;
+    z-index: 2;
+    right: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Button-Wrap > a{
+    width: auto;
+    height: auto;
+    opacity: 1;
+    transition: 0.8s;
+    margin: 10px 0; 
+}
+
+.Button-Wrap > a:hover{
+    opacity: 0.6;
+}
+
 .CartWrapper{
     width: 100%;
     height: auto;
@@ -195,6 +219,12 @@ nav > ul > li > a:hover{
     align-items: center;
     justify-content: center;
     font-size: 20px;
+    opacity: 1;
+    transition: 0.8s;
+}
+
+.Go-Shop:hover{
+    opacity: 0.7;
 }
 
 .Go-Shop > img{
@@ -216,6 +246,55 @@ nav > ul > li > a:hover{
     background-repeat: no-repeat;
     width: 100%;
     height: 369px;
+    margin: 0;
+    padding: 5%;
+}
+
+.Recipt > p{
+    font-size: 27px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 4%;
+    height: auto;
+    width: 100%;
+}
+
+.TotalCost{
+    display: flex;
+    color: #fff;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-top: 12%;
+}
+
+.TotalCost > p{
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+.Discount{
+    display: flex;
+    color: #fff;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    font-size: 20px;
+    margin: 5% 0;
+}
+
+.Discount > p{
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+
+.Recipt-Line{
+    width: 100%;
+    height: 1px;
+    border: dashed 1px #fff;
+    margin: 8% 0;
 }
 
 .AmountInfo > a{
@@ -228,8 +307,71 @@ nav > ul > li > a:hover{
     color: #fff;
 }
 
-.AmountInfo > a:first{
+.Present{
     background-color: #666;
+    margin: 4% 0;
+    opacity: 1;
+    transition: 0.8s;
+    font-size: 20px;
+}
+
+.Present:hover{
+    opacity: 0.4;
+}
+
+.Order{
+    background-color: #333;
+    opacity: 1;
+    transition: 0.8s;
+    font-size: 20px;
+}
+
+.Order:hover{
+    opacity: 0.6;
+}
+
+.Content-Line{
+    width: 100%;
+    height: 1px;
+    border-bottom: #333 solid 2px;
+    margin: 7% 0;   
+}
+
+.CartDownContent{
+    width: 100%;
+    height: auto;
+    padding: 2%;
+    margin-bottom: 8%;
+}
+
+.CartDownContent-Title{
+    width: auto;
+    height: auto;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.CartDownDescirption{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+
+.CartDownDescirption-Item{
+    width: 345px;
+    height: auto;
+}
+
+.CartDownDescirption-Item > p{
+    text-align: center;
+    color: #333;
+    margin: 4% 0;
+}
+.CartDownDescirption-Item > p:nth-child(2){
+    font-size: 30px;
+    font-weight: bold;
 }
 
 /*푸터시작*/

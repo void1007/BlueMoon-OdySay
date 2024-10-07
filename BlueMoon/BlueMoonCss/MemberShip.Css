@@ -102,6 +102,26 @@ nav > li > a:hover{
 }
 /* 헤더 끝 */
 
+.TopButton{
+    width: auto;
+    height: auto;
+    position: fixed;
+    z-index: 2;
+    top: 55%;
+    right: 2.5%;
+    opacity: 1;
+    transition: 0.8s;
+}
+
+.TopButton:hover{
+    opacity: 0.75;
+}
+
+.TopButton > img{
+    width: 60px;
+    height: 60px;
+}
+
 .content-Wrapper{
     width: 100%;
     height: auto;
@@ -477,6 +497,33 @@ nav > li > a:hover{
     height: auto;
     display: flex;
     margin: 4% 0;
+    justify-content: space-evenly;
+}
+
+.IconWrapper2-1{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.IconWrapper2-1 > p{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: #fff;
+}
+
+.IconWrapper2-1 > p:nth-child(2){
+    font-size: 25px;
+    font-weight: bold;
+    margin: 8% 0;
+}
+
+.IconWrapper2-1 > p:nth-child(3){
+    font-size: 16px;
 }
 
 .Icon-Img-wrap{
@@ -493,6 +540,96 @@ nav > li > a:hover{
     width: 80px;
     height: 80px;
 }
+
+.Gift-Wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Gift-Title{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 45px;
+    color: #054AA5;
+    font-family: 'DNFForgedBlade';
+    font-weight: bold;
+    margin-top: 8%;
+    margin-bottom: 2.5%;
+}
+
+.Gift-Line{
+    width: 212px;
+    border-bottom: 4px solid #054AA5;
+    margin-bottom: 2.5%;
+}
+
+.Gift-Text{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: #71A1E5;
+    font-size: 25px;
+}
+
+.Gift-Text > span{
+    font-weight: bold;
+    color: #054AA5;
+}
+
+.IconWrapper3{
+    width: 1400px;
+    height: auto;
+    display: flex;
+    margin: 4% 0;
+    justify-content: space-evenly;
+}
+
+.Icon-Img-wrap3{
+    width: 138px;
+    height: 138px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #054AA5;
+    border-radius: 50%;
+}
+
+.IconWrapper3-1{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.IconWrapper3-1 > p{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: #054AA5;
+}
+
+.IconWrapper3-1 > p:nth-child(2){
+    font-size: 25px;
+    font-weight: bold;
+    margin: 8% 0;
+}
+
+.IconWrapper3-1 > p:nth-child(3){
+    font-size: 16px;
+}
+
+.Icon-5-Img{
+    width: 80px;
+    height: 80px;
+}
+
+
 /* 푸터시작 */
 footer{
     width: 100%;
