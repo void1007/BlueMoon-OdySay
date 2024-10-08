@@ -108,6 +108,11 @@ nav > ul > li > a:hover{
     justify-content: space-between;
 }
 
+.TopIcon > a{
+    width: auto;
+    height: auto;
+}
+
 .User{
     width: 25px;
     height: 27.47px;
