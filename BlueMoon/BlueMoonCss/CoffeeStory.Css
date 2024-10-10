@@ -358,6 +358,7 @@ nav > li > a:hover{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 4% 0;
 }
 
 .Signature-Wrap > p{
@@ -376,10 +377,38 @@ nav > li > a:hover{
 }
 
 .Signature-Content{
-    width: auto;
+    width: 100%;
     height: auto;
+    display: flex;
+    justify-content: space-evenly;
 }
 
+.Signature-Content-Item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.Signature-Content-Item-Img{
+    width: 350px;
+    height: 350px;
+}
+
+.Signature-Content-Item > p:nth-child(2){
+    font-size: 20px;
+    margin: 4% 0;
+    color: #054AA5;
+    font-weight: bold;
+    width: auto;
+}
+
+.Signature-Content-Item > p:nth-child(3){
+    color: #054AA5;
+    font-size: 18px;
+    width: auto;
+}
 /*푸터시작*/
 
 footer{
