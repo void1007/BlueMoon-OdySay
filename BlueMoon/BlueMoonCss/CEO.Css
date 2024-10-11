@@ -193,4 +193,125 @@ nav > li > a:hover{
     font-family: 'DNFForgedBlade';
     font-weight: bold;
     margin: 8% 0;
+    height: auto;
+}
+
+.CEO-Desciption{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.Left-article{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.CEO-Pic{
+    width: 545px;
+    height: 545px;
+    border-radius: 50%;
+    background-color: #054AA5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CEO-Pic > img{
+    width: 500px;
+    height: 500px;
+}
+
+.Business-history{
+    width: 100%;
+    height: auto;
+}
+
+.Business-history-Title{
+    color: #054AA5;
+    font-size: 20px;
+    font-weight: bold;
+    height: auto;
+    width: auto;
+    margin : 4% 0;
+    text-align: center;
+}
+
+.Business-history-Content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Business-Year{
+    width: 50%;
+    height: auto;
+    text-align: center;
+}
+
+.Business-Year > p{
+    width: auto;
+    height: auto;
+    font-size: 15px;
+    color: #054AA5;
+    line-height: 36px;
+}
+
+.Business-Year > p > b{
+    margin-right: 4%;
+}
+
+.Business-Descirption{
+    width: 50%;
+    height: auto;
+    color: #054AA5;
+    font-size: 15px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.Business-Descirption > p{
+    width: auto;
+    height: auto;
+}
+
+.Company-Motto{
+    width: auto;
+    height: auto;
+    font-weight: bold;
+    color: #054AA5;
+    font-size: 30px;
+}
+
+.Right-article-Line{
+    width: 268px;
+    border-bottom: 4px solid #71A1E5;
+    margin: 4% 0;
+}
+
+.article-wrapper{
+    width: 100%;
+    color: #054AA5;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.article-wrapper > p{
+    margin-bottom: 4%;
+    padding: 0 10%;
+}
+
+.article-wrapper > p:nth-child(6){
+    width: auto;
+    text-align: center;
+}
+.article-wrapper > p:last-child{
+    width: auto;
+    text-align: center;
+    letter-spacing: 20px;
 }
