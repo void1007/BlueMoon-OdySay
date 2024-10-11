@@ -288,6 +288,11 @@ nav > li > a:hover{
     font-size: 30px;
 }
 
+.Right-article{
+    width: 100%;
+    padding: 0 10%;
+}
+
 .Right-article-Line{
     width: 268px;
     border-bottom: 4px solid #71A1E5;
@@ -303,7 +308,6 @@ nav > li > a:hover{
 
 .article-wrapper > p{
     margin-bottom: 4%;
-    padding: 0 10%;
 }
 
 .article-wrapper > p:nth-child(6){
