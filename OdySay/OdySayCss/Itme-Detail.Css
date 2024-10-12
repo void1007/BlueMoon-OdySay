@@ -584,3 +584,118 @@ nav > ul > li > a:hover{
     font-size: 27.5px;
     color: #333;
 }
+
+.Size-info{
+    width: calc(100% - 400px);
+    height: auto;
+    border-collapse: collapse;
+    margin-bottom: 8%;
+}
+
+.Size-info > caption:first-child{
+    font-weight: bold;
+    font-size: 50px;
+    color: #333;
+    margin: 4% 0;
+}
+
+.Size-info > caption:nth-child(2){
+    font-size: 20px;
+    color: #333;
+    text-align: end;
+    margin-bottom: 2%;
+}
+
+.tr1{
+    width: 100%;
+    height: 86px;
+    background-color: #333;
+    color: #fff;
+    font-size: 25px;
+}
+
+.tr1 > td{
+    width: 280px;
+    text-align: center;
+    border-right: 1px solid #999;
+}
+
+.tr1 > td:last-child{
+    border: none;
+}
+
+.tr2{
+    width: 100%;
+    height: 86px;
+    color: #333;
+    font-size: 25px;
+}
+
+.tr2 > td{
+    width: 280px;
+    text-align: center;
+    border-right: 1px solid #999;
+}
+
+.tr2 > td:last-child{
+    border: none;
+}
+
+.tr3{
+    width: 100%;
+    height: 86px;
+    color: #fff;
+    background-color: #666;
+    font-size: 25px;
+}
+
+.tr3 > td{
+    width: 280px;
+    text-align: center;
+    border-right: 1px solid #999;
+}
+
+.tr3 > td:last-child{
+    border: none;
+}
+
+.Authentication{
+    width: calc(100% - 400px);
+    height: 118px;
+    background-color: #333;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 4% 0 6% 0;
+}
+
+.Left-Side{
+    width: auto;
+    height: auto;
+    color: #fff;
+    text-align: center;
+}
+
+.Left-Side > p:first-child{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.Left-Side > p:last-child{
+    font-size: 15px;
+}
+
+.Right-Side{
+    width: auto;
+    height: auto;
+    color: #fff;
+}
+
+.Right-Side > p:first-child{
+    font-size: 13px;
+}
+
+.Right-Side > p:last-child{
+    font-size: 10px;
+}
