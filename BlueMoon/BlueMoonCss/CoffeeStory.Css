@@ -127,6 +127,9 @@ nav > li > a:hover{
 .Top-Content > video{
     width: 1280px;
     height: 720px;
+    border: 3px solid #c1c1c1;
+    padding: 0;
+    margin: 0;
 }
 
 .Top-Content-Title{
@@ -134,7 +137,7 @@ nav > li > a:hover{
     height: auto;
     color: #fff;
     font-family: 'DNFForgedBlade';
-    margin:8% 0;
+    margin:8% 0 4% 0;
     text-align: center;
     font-size: 48px;
 }
@@ -153,8 +156,49 @@ nav > li > a:hover{
     text-align: center;
     color: #fff;
     font-size: 58px;
-    margin: 5% 0;
+    margin: 2.5% 0;
     font-weight: bold;
+}
+
+.Banner-menu{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    margin: 4% 0;
+}
+
+.Banner-menu > ul{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.Banner-menu >ul > li{
+    width: 200px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    border: #fff 2px solid;
+    border-right: none;
+    font-family: 'DNFForgedBlade';
+    font-size: 16px;
+}
+
+.Banner-menu > ul > li:last-child{
+    border-right: 1px solid #fff;
+}
+
+.Banner-menu > ul > li > a{
+    color:#fff;
+    transition: 0.5s;
+}
+
+.Banner-menu > ul > li > a:hover{
+    color:#c1c1c1;
 }
 
 .CoffeeStory-Content{

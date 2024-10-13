@@ -699,3 +699,164 @@ nav > ul > li > a:hover{
 .Right-Side > p:last-child{
     font-size: 10px;
 }
+
+.Earn-wrapper{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.Earn-wrapper > a{
+    width: 300px;
+    height: 53px;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin: 0 2%;
+    transition: 0.8s;
+}
+
+.Earn-wrapper > a:hover{
+    border: #333 1px solid;
+    color: #333;
+    background-color: #fff;
+}
+
+.Earn-Content{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 17px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 8%;
+}
+
+.Earn-Content > p{
+    height: auto;
+}
+
+.Earn-Content > p > b{
+    color: #666;
+    font-weight: 400;
+}
+
+.Earn-Content > u {
+    height: auto;
+    font-size: 13px;
+    line-height: 13px;
+}
+
+.Rating{
+    width: 951px;
+    height: 86px;
+    border: 1px solid #333;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    margin-bottom: 4%;
+}
+
+.Rating > p{
+    height: auto;
+    width: auto;
+    margin: 4%;
+}
+
+.Rating > p:nth-child(1){
+    font-size: 20px;
+}
+
+.Rating > p:nth-child(2){
+    font-size: 32px;
+    font-weight: bold;
+}
+.Rating > p:nth-child(4){
+    font-size: 32px;
+    font-weight: bold;
+}
+.Rating > p:nth-child(5){
+    font-size: 13px;
+}
+
+.Rating-Line{
+    height: 36px;
+    width: 1px;
+    border-left: 1px solid #333;
+}
+
+.Review-Greeting{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: #333;
+    margin: 4% 0;
+}
+
+.Best-Reviews{
+    margin: 0;
+    font-weight: bold;
+    width: 100%;
+    text-align: left;
+    font-size: 25px;
+    padding: 0 4%;
+}
+
+hr{
+    margin-top: 1px;
+    width: 92%;
+}
+
+.Review-Chats{
+    margin: 6% 0;
+    text-align: center;
+    font-size: 30px;
+    color: #333;
+    line-height: 50px;
+}
+
+.Review-Chats > span{
+    font-size: 20px;
+}
+
+.Review-wrap{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    width: 92%;
+    align-items: center;
+}
+
+.Review-Info{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    color: #333;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.Review-Info > p:nth-child(1){
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.Review-wrap > select{
+    width: 200px;
+    height: 35px;
+    font-size: 15.75px;
+    color: #999;
+    border: none;
+}

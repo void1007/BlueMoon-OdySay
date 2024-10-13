@@ -132,6 +132,10 @@ nav > li > a:hover{
     text-align: center;
 }
 
+.BannerText > p:first-child{
+    font-weight: bold;
+}
+
 .BannerText > div{
     width: 50px;
     height: 1px;
@@ -217,6 +221,7 @@ nav > li > a:hover{
     color: #054AA5;
     font-size: 23.5px;
     margin-bottom: 4%;
+    line-height: 47px;
 }
 
 .Education-Desciption > b{
@@ -228,4 +233,213 @@ summary{
     font-size: 20px;
     color: #054AA5;
     margin-bottom: 4%;
+}
+
+.Left-Side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.Left-Side-Text{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    color: #054AA5;    
+    font-size: 21.5px;
+    margin-right: 4%;
+}
+
+.Left-Side-Text > p:first-child{
+    font-size: 39px;
+    font-weight: bold;
+    color: #054AA5;
+}
+
+.Left-Side-Text > p{
+    margin-bottom: 4%;
+}
+
+.Left-Side-Text > b{
+    margin-bottom: 4%;
+}
+
+.Left-Side-Text > hr{
+    width: 221px;
+    border: 2px solid #054AA5;
+    height: auto;
+    margin: 4% 0;
+}
+
+.Left-Side > img{
+    width: 550px;
+    height: 370px;
+    margin-left: 4%;
+}
+
+.Right-Side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Right-Side-Text{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    color: #054AA5;    
+    font-size: 21.5px;
+    margin-left: 4%;
+}
+
+.Right-Side-Text > p:first-child{
+    font-size: 39px;
+    font-weight: bold;
+    color: #054AA5;
+}
+
+.Right-Side-Text > p{
+    margin-bottom: 4%;
+}
+
+.Right-Side-Text > b{
+    margin-bottom: 4%;
+}
+
+.Right-Side-Text > hr{
+    width: 221px;
+    border: 2px solid #054AA5;
+    height: auto;
+    margin: 4% 0;
+}
+
+.Right-Side > img{
+    width: 550px;
+    height: 370px;
+    margin:0 4%;
+}
+
+.Qualification-Details{
+    width: 100%;
+    height: auto;
+    background-color: #054AA5;
+    margin: 4% 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.Qualification-Details-Title{
+    font-weight: bold;
+    font-size: 30.5px;
+    margin-top: 6%;
+}
+
+.Qualification-Details > hr{
+    width: 40px;
+    height: auto;
+    border: #fff 2px solid;
+    margin: 3% 0;
+}
+
+.Qualification-Details > p:nth-child(3){
+    font-size: 22.5px;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+.Qualification-Details > p:nth-child(4){
+    font-size: 20px;
+    margin-bottom: 4%;
+}
+
+.Qualification-Details > p:nth-child(5){
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Qualification-Photo-Desciption{
+    width: calc(100% - 700px);
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 8%;
+}
+
+.Qualification-Photo-Desciption > div{
+    width: auto;
+    height: auto;
+}
+
+.Qualification-Photo-Desciption > div > img{
+    width: 358px;
+    height: 270px;
+    margin-bottom: 8%;
+}
+
+.Qualification-Photo-Desciption > div > p {
+    width: auto;
+    height: auto;
+    font-size: 18px;
+}
+
+footer{
+    width: 100%;
+    height: 300px;
+    border-top: 2px solid #054AA5;
+}
+
+footer > p{
+    height: auto;
+    text-align: center;
+}
+
+footer > p:first-child{
+    font-size: 20px;
+    color: #054AA5;
+    font-weight: bold;
+    margin: 40px 0;
+}
+
+footer > p > span{
+    font-size: 15px;
+}
+
+footer > p > span::after{
+    content: ' | ';
+}
+
+footer > p > span:last-child::after{
+    content: ' ';
+}
+
+.bottomContent{
+    display: flex;
+    height: auto;
+    text-align: center;
+}
+
+.lastPTag{
+    margin: 50px;
+    width: 100%;
+}
+
+strong{
+    color: #054AA5;
+}
+
+.FamilySite{
+    width: 150px;
+    height: 30px;
+    font-size: 12px;
+    color: #054AA5;
+    float: right;
+    margin-right: 5%;
+    font-weight: bold;
 }
