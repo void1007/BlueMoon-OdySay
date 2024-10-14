@@ -139,13 +139,14 @@ nav > li > a:hover{
 .BannerText > div{
     width: 50px;
     height: 1px;
-    border-bottom: 3px solid #71A1E5;
+    border-bottom: 3px solid #054AA5;
     margin: 4% 0;
 }
 
 .BannerText p:nth-child(3){
-    color: #71A1E5;
+    color: #054AA5;
     font-size: 25px;
+    font-weight: bold;
 }
 
 .Banner-menu{
@@ -220,7 +221,7 @@ nav > li > a:hover{
     text-align: center;
     color: #054AA5;
     font-size: 23.5px;
-    margin-bottom: 4%;
+    margin-bottom: 2%;
     line-height: 47px;
 }
 
@@ -250,6 +251,8 @@ summary{
     color: #054AA5;    
     font-size: 21.5px;
     margin-right: 4%;
+    border: 3px solid #054AA5;
+    padding: 2%;
 }
 
 .Left-Side-Text > p:first-child{
@@ -293,6 +296,8 @@ summary{
     color: #054AA5;    
     font-size: 21.5px;
     margin-left: 4%;
+    border: 3px solid #054AA5;
+    padding: 2%;
 }
 
 .Right-Side-Text > p:first-child{
@@ -365,7 +370,7 @@ summary{
 }
 
 .Qualification-Photo-Desciption{
-    width: calc(100% - 700px);
+    width: calc(100% - 200px);
     height: auto;
     display: flex;
     justify-content: space-evenly;
