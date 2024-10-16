@@ -1,0 +1,278 @@
+@font-face{
+    font-family:'DNFForgedBlade';font-style:normal;font-weight:300;
+    src:url('//cdn.df.nexon.com/img/common/font/DNFForgedBlade-Light.otf')format('opentype')}
+
+*{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 3;
+    background-color: #fff;
+}
+
+.TopLogo{
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-right: 75px;
+}
+
+.TopLogo > img{
+    width: 300px;
+    height: 98px;
+}
+
+nav{
+    width: calc(100% - 600px);
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav > li{
+    width: auto;
+    height: auto;
+    list-style-type: none;
+    font-family: 'DNFForgedBlade';
+    font-size: 20px;    
+}
+
+nav > li > a
+{
+    color: #054AA5;
+    transition: 0.5s;
+}
+
+nav > li > a:hover{
+    opacity: 0.6;
+}
+
+
+.TopIcon{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 75px;
+    justify-content: center;
+}
+
+.TopIcon > a{
+    width: auto;
+    height: auto;
+    margin: 0 5px;
+}
+
+.TopIcon > a:first-child{
+    font-size: 15px;
+    font-weight: bold;
+    color: #054AA5;
+}
+
+.TopIcon > a > img{
+    width: 30px;
+    height: 30px;
+}
+/*헤더 끝*/
+
+.Banner1{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../BlueMoonImages/BannerImage/Menu-Banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.BannerText{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8%;
+}
+
+.BannerText p{
+    width: auto;
+    height: auto;
+    font-family: 'DNFForgedBlade';
+    color: #054AA5;
+    font-size: 45px;
+    text-align: center;
+}
+
+.BannerText > p:first-child{
+    font-weight: bold;
+}
+
+.BannerText > div{
+    width: 50px;
+    height: 1px;
+    border-bottom: 3px solid #054AA5;
+    margin: 4% 0;
+}
+
+.BannerText p:nth-child(3){
+    color: #054AA5;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.Banner-menu{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    margin: 4% 0;
+}
+
+.Banner-menu{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    margin: 4% 0;
+}
+
+.Banner-menu > ul{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.Banner-menu >ul > li{
+    width: 200px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    border: #054AA5 2px solid;
+    border-right: none;
+    font-family: 'DNFForgedBlade';
+    font-size: 16px;
+}
+
+.Banner-menu > ul > li:last-child{
+    border-right: 2px solid #054AA5;
+}
+
+.Banner-menu > ul > li > a{
+    color:#71a1e5;
+    transition: 0.5s;
+}
+
+.Banner-menu > ul > li > a:hover{
+    color:#054AA5;
+}
+
+.Content-Wrapper{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Menu-Wrapper{
+    width: 100%;
+    height: auto;
+    margin: 4% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Menu-Wrapper > p{
+    text-align: center;
+    font-size: 35px;
+    color: #054AA5;
+    font-weight: bold;
+}
+
+.Menu-Wrapper > hr{
+    border: 3px solid #054AA5;
+    width: 60px;
+    height: auto;
+    margin: 2% 0;
+}
+
+.Menu-Contents{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4% 0;
+}
+
+.Menu-Contents > a:nth-child(1){
+    width: 65px;
+    height: 65px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Menu-Items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 318px;
+    width: auto;
+}
+
+.Item1{
+    margin: 0 4%;
+}
+
+.Item1 > img{
+    width: 270px;
+    height: 270px;
+}
+
+.Item1 > p{
+    height: auto;
+    text-align: center;
+    color: #054AA5;
+    margin: 4% 0;
+}
+
+.Menu-Contents > a:nth-child(3){
+    width: 65px;
+    height: 65px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

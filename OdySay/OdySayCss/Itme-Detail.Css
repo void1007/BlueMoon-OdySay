@@ -452,6 +452,7 @@ nav > ul > li > a:hover{
     height: 60px;
     display: flex;
     align-items: center;
+    margin-top: 2%;
     margin-bottom: 4%;
     border-bottom: 1px #333 solid;
     border-top: 1px #333 solid;

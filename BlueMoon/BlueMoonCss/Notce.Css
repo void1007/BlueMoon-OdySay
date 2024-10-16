@@ -109,7 +109,7 @@ nav > li > a:hover{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(../BlueMoonImages/BannerImage/Education/Education-Banner.png);
+    background-image: url(../BlueMoonImages/BannerImage/Notice-Banner.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -158,39 +158,7 @@ nav > li > a:hover{
     margin: 4% 0;
 }
 
-.Banner-menu > ul{
-    width: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-}
-
-.Banner-menu >ul > li{
-    width: 200px;
-    text-align: center;
-    height: 50px;
-    line-height: 50px;
-    border: #054AA5 2px solid;
-    border-right: none;
-    font-family: 'DNFForgedBlade';
-    font-size: 16px;
-}
-
-.Banner-menu > ul > li:last-child{
-    border-right: 2px solid #054AA5;
-}
-
-.Banner-menu > ul > li > a{
-    color:#71a1e5;
-    transition: 0.5s;
-}
-
-.Banner-menu > ul > li > a:hover{
-    color:#054AA5;
-}
-
-.content-Wrapper{
+.Content-Wrapper{
     width: 100%;
     height: auto;
     display: flex;
@@ -198,202 +166,147 @@ nav > li > a:hover{
     align-items: center;
 }
 
-.Main-Title{
-    font-size: 45.5px;
-    font-weight: bold;
-    font-family: 'DNFForgedBlade';
-    color: #054AA5;
-    text-align: center;
-    width: auto;
-    height: auto;
-    margin: 4% 0 2% 0;
-}
-
-.Main-Title-Line{
-    background-color: #054AA5;
-    height: 4px;
-    width: 400px;
-    margin-bottom: 4%;
-}
-
-
-.Education-Desciption{
-    text-align: center;
-    color: #054AA5;
-    font-size: 23.5px;
-    margin-bottom: 2%;
-    line-height: 47px;
-}
-
-.Education-Desciption > b{
-    font-size: 27px;
-}
-
-summary{
-    text-align: center;
-    font-size: 20px;
-    color: #054AA5;
-    margin-bottom: 4%;
-}
-
-.Left-Side{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10%;
-}
-
-.Left-Side-Text{
-    width: 550px;
-    height: 370px;
-    display: flex;
-    flex-direction: column;
-    color: #054AA5;    
-    font-size: 16px;
-    margin-right: 4%;
-    border: 3px solid #054AA5;
-    padding: 2%;
-}
-
-.Left-Side-Text > p:first-child{
-    font-size: 30px;
-    font-weight: bold;
-    color: #054AA5;
-}
-
-.Left-Side-Text > p{
-    margin-bottom: 4%;
-}
-
-.Left-Side-Text > b{
-    margin-bottom: 4%;
-}
-
-.Left-Side-Text > hr{
-    width: 221px;
-    border: 2px solid #054AA5;
-    height: auto;
-    margin: 4% 0;
-}
-
-.Left-Side > img{
-    width: 550px;
-    height: 370px;
-    margin-left: 4%;
-}
-
-.Right-Side{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.Right-Side-Text{
-    width: 550px;
-    height: 370px;
-    display: flex;
-    flex-direction: column;
-    color: #054AA5;    
-    font-size: 15px;
-    margin-left: 4%;
-    border: 3px solid #054AA5;
-    padding: 2%;
-}
-
-.Right-Side-Text > p:first-child{
-    font-size: 30px;
-    font-weight: bold;
-    color: #054AA5;
-}
-
-.Right-Side-Text > p{
-    margin-bottom: 2%;
-}
-
-.Right-Side-Text > b{
-    margin-bottom: 2%;
-}
-
-.Right-Side-Text > hr{
-    width: 221px;
-    border: 2px solid #054AA5;
-    height: auto;
-    margin: 2% 0;
-}
-
-.Right-Side > img{
-    width: 550px;
-    height: 370px;
-    margin:0 4%;
-}
-
-.Qualification-Details{
-    width: 100%;
-    height: auto;
-    background-color: #054AA5;
-    margin: 4% 0;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-}
-
-.Qualification-Details-Title{
-    font-weight: bold;
-    font-size: 30.5px;
-    margin-top: 6%;
-}
-
-.Qualification-Details > hr{
-    width: 40px;
-    height: auto;
-    border: #fff 2px solid;
-    margin: 3% 0;
-}
-
-.Qualification-Details > p:nth-child(3){
-    font-size: 22.5px;
-    font-weight: bold;
-    margin-bottom: 2%;
-}
-
-.Qualification-Details > p:nth-child(4){
-    font-size: 20px;
-    margin-bottom: 4%;
-}
-
-.Qualification-Details > p:nth-child(5){
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.Qualification-Photo-Desciption{
+.Notce-Contents{
     width: calc(100% - 200px);
+    border-collapse: collapse;
     height: auto;
+    margin: 8% 0 4% 0;
+    padding: 0 4%;
+}
+
+.Notce-Contents > thead {
+    border-top: 4px solid #054AA5;
+    border-bottom: 1px solid #054AA5;
+}
+
+.Number{
+    width: 10%;
+    height: 60px;
+    font-weight: bold;
+    text-align: center;
+    color: #054AA5;
+}
+
+.Classification{
+    width: 10%;
+    height: 60px;
+    font-weight: bold;
+    text-align: center;
+    color: #054AA5;
+}
+
+.Title{
+    width: 50%;
+    height: 60px;
+    font-weight: bold;
+    text-align: center;
+    color: #054AA5;
+}
+
+.Registration-Date{
+    width: 15%;
+    height: 60px;
+    font-weight: bold;
+    text-align: center;
+    color: #054AA5;
+}
+
+.Views{
+    width: 15%;
+    height: 60px;
+    font-weight: bold;
+    text-align: center;
+    color: #054AA5;
+}
+
+tbody > tr{
+    opacity: 1;
+    transition: 0.8s;
+}
+
+tbody > tr:hover{
+    opacity: 0.6;
+}
+
+tbody > tr > td{
+    text-align: center;
+}
+
+tbody > tr > td > a{
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+}
+
+
+tbody > tr > td:first-child{
+    width: 10%;
+    height: 70px;
+}
+
+tbody > tr > td:nth-child(2){
+    width: 10%;
+    height: 70px;
+}
+
+tbody > tr > td:nth-child(3){
+    width: 50%;
+    height: 70px;
+}
+
+tbody > tr > td:nth-child(4){
+    width: 15%;
+    height: 70px;
+}
+
+tbody > tr > td:last-child{
+    width: 15%;
+    height: 70px;
+}
+
+tbody > tr{
+    border-bottom: 1px solid #054AA5;
+}
+
+tbody > tr:last-child{    
+    border-bottom: 4px solid #054AA5;
+}
+
+.Page-Controll{
     display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 8%;
-}
-
-.Qualification-Photo-Desciption > div{
+    justify-content: center;
+    align-items: center;
     width: auto;
     height: auto;
+    margin-bottom: 4%;
 }
 
-.Qualification-Photo-Desciption > div > img{
-    width: 358px;
-    height: 270px;
-    margin-bottom: 8%;
+.Page-Controll > a{
+    margin: 0 24%;
+    color: #054AA5;
+    transition: 0.8s;
+    opacity: 1;
 }
 
-.Qualification-Photo-Desciption > div > p {
-    width: auto;
-    height: auto;
-    font-size: 18px;
+.Page-Controll > a:first-child{
+    font-weight: bold;
 }
 
+.Page-Controll > a:hover{
+    opacity: 0.5;
+}
+
+.Page-Controll > a:last-child{
+    width: 30px;
+    height: 30px;
+}
+
+.Page-Controll > a:last-child > img{
+    width: 30px;
+    height: 30px;
+}
+
+/* 푸터시작 */
 footer{
     width: 100%;
     height: 300px;
