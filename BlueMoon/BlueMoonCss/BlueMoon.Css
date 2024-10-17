@@ -105,6 +105,10 @@ nav > li > a:hover{
 .content-Wrapper{
     width: 100%;
     height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .Banner1{
@@ -235,7 +239,7 @@ nav > li > a:hover{
 .LogoDesign{
     width: 1150px;
     height: 415px;
-    margin: 4% 0 4% 385px;
+    margin: 4% 0;
     background-image: url(../BlueMoonImages/BannerImage/LogoDesciption.png);    
 }
 
@@ -245,7 +249,7 @@ nav > li > a:hover{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin:4% 0 4% 360px;
+    margin:4% 0;
     border-bottom : 3px solid #054AA5;
 }
 
@@ -288,7 +292,6 @@ nav > li > a:hover{
     width: 1200px;
     height: auto;
     display: flex;
-    margin-left: 360px;
     justify-content: center;
 }
 
@@ -392,7 +395,7 @@ nav > li > a:hover{
 .ColorCombination{
     width: 1200px;
     height: auto;
-    margin: 5% 0 5% 360px;
+    margin: 5% 0;
     display: block;
 }
 
