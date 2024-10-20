@@ -1,0 +1,209 @@
+@font-face{
+    font-family:'DNFForgedBlade';font-style:normal;font-weight:300;
+    src:url('//cdn.df.nexon.com/img/common/font/DNFForgedBlade-Light.otf')format('opentype')}
+
+*{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 3;
+    background-color: #fff;
+}
+
+.TopLogo{
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-right: 75px;
+}
+
+.TopLogo > img{
+    width: 300px;
+    height: 98px;
+}
+
+nav{
+    width: calc(100% - 600px);
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav > li{
+    width: auto;
+    height: auto;
+    list-style-type: none;
+    font-family: 'DNFForgedBlade';
+    font-size: 20px;    
+}
+
+nav > li > a
+{
+    color: #054AA5;
+    transition: 0.5s;
+}
+
+nav > li > a:hover{
+    opacity: 0.6;
+}
+
+
+.TopIcon{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 75px;
+    justify-content: center;
+}
+
+.TopIcon > a{
+    width: auto;
+    height: auto;
+    margin: 0 5px;
+}
+
+.TopIcon > a:first-child{
+    font-size: 15px;
+    font-weight: bold;
+    color: #054AA5;
+}
+
+.TopIcon > a > img{
+    width: 30px;
+    height: 30px;
+}
+/*헤더 끝*/
+
+.Banner1{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../BlueMoonImages/BannerImage/Cafe-Banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.BannerText{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8%;
+}
+
+.BannerText p{
+    width: auto;
+    height: auto;
+    font-family: 'DNFForgedBlade';
+    color: #054AA5;
+    font-size: 45px;
+    text-align: center;
+}
+
+.BannerText > p:first-child{
+    font-weight: bold;
+}
+
+.BannerText > div{
+    width: 50px;
+    height: 1px;
+    border-bottom: 3px solid #054AA5;
+    margin: 8% 0;
+}
+
+.BannerText p:nth-child(3){
+    color: #054AA5;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.Content-Wrapper{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Store-Search-Wrapper{
+    width: 1150px;
+    color: #fff;
+    height: 104px;
+    background-color: #054AA5;
+    display: flex;
+    align-items: center;
+    border-radius: 16px;
+    padding: 0 4%;
+    justify-content: space-evenly;
+}
+
+.Store-Search-Wrapper > p{
+    width: auto;
+    height: auto;
+    font-size: 16px;
+    margin-right: 2%;
+}
+
+.Store-Search-Wrapper > select{
+    width: 140px;
+    height: 40px;
+    background-color: #054AA5;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.Store-Search-Wrapper > select:nth-child(3){
+    margin:0 5px;
+}
+
+.Store-Search-Wrapper > label{
+    width: 650px;
+    height: auto;
+    font-size: 16px;
+}
+
+#store{
+    width: 500px;
+    height: 40px;
+    padding: 0 2%;
+    background-color: transparent;
+    border: #fff 1px solid;
+    margin-left: 2%;
+    color: #fff;
+}
+
+#store::placeholder{
+    color: #fff;
+}
