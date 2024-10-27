@@ -1,0 +1,675 @@
+@font-face{
+    font-family:'DNFForgedBlade';font-style:normal;font-weight:300;
+    src:url('//cdn.df.nexon.com/img/common/font/DNFForgedBlade-Light.otf')format('opentype')}
+
+*{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 3;
+    background-color: #fff;
+}
+
+.TopLogo{
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-right: 75px;
+}
+
+.TopLogo > img{
+    width: 300px;
+    height: 98px;
+}
+
+nav{
+    width: calc(100% - 600px);
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav > li{
+    width: auto;
+    height: auto;
+    list-style-type: none;
+    font-family: 'DNFForgedBlade';
+    font-size: 20px;    
+}
+
+nav > li > a
+{
+    color: #054AA5;
+    transition: 0.5s;
+}
+
+
+@media screen and (max-width: 1400px) {
+    nav > li {
+      font-size: 15px;
+    }
+  }
+
+nav > li > a:hover{
+    opacity: 0.6;
+}
+
+
+.TopIcon{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 75px;
+    justify-content: center;
+}
+
+.TopIcon > a{
+    width: auto;
+    height: auto;
+    margin: 0 5px;
+}
+
+.TopIcon > a:first-child{
+    font-size: 15px;
+    font-weight: bold;
+    color: #054AA5;
+}
+
+.TopIcon > a > img{
+    width: 30px;
+    height: 30px;
+}
+/*헤더 끝*/
+
+.Banner1{
+    width: 100%;
+    height: 721px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../BlueMoonImages/BannerImage/Customer-Voice.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.BannerText{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8%;
+}
+
+.BannerText p{
+    width: auto;
+    height: auto;
+    font-family: 'DNFForgedBlade';
+    color: #054AA5;
+    font-size: 45px;
+    text-align: center;
+}
+
+.BannerText > p:first-child{
+    font-weight: bold;
+}
+
+.BannerText > div{
+    width: 50px;
+    height: 1px;
+    border-bottom: 3px solid #054AA5;
+    margin: 4% 0;
+}
+
+.BannerText p:nth-child(3){
+    color: #054AA5;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.Banner-menu{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    margin: 4% 0;
+}
+
+.Content-Wrapper{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Write-Wrapper{
+    width: 100%;
+    height: auto;
+    background-color: #054AA5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin: 4% 0;
+}
+
+.Write-Wrapper > p:first-child{
+    text-align: center;
+    font-size: 26px;
+    margin: 4% 0;
+    font-weight: bold;
+}
+
+.Write-Wrapper > p:nth-child(2){
+    text-align: center;
+    font-size: 13.75px;
+    margin-bottom: 4%;
+}
+
+.Write-Wrapper > section{
+    width: calc(100% - 400px);
+    margin: 0 auto;
+}
+
+.Write-Items{
+    width: 100%;
+    border-top: 2px solid #fff;
+    border-bottom: 1px solid #fff;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.Write-Items > p{
+    width: 80px;
+    height: auto;
+    margin-right: 4%;
+}
+
+#Brand{
+    width: 150px;
+    height: 30px;
+    border: 1px solid #fff;
+    font-size: 12px;
+    background-color: transparent;
+    color: #fff;
+}
+
+#Brand:focus{
+    outline: none;
+}
+
+#Store{
+    width: 220px;
+    height: 34px;
+    background-color: transparent;
+    border: #fff 1px solid;
+    padding: 0 0.5%;
+    color: #fff;
+}
+
+#Store::placeholder{
+    color: #fff;
+}
+
+#Store:focus{
+    outline: none;
+}
+
+#Store-Search{
+    width: 71px;
+    height: 34px;
+    margin-left: 1%;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#Big,#Middle,#Small{
+    width: 110px;
+    height: 30px;
+    font-size: 11px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 0 0.5%;
+    cursor: pointer;
+}
+
+#Big,#Middle,#Small:focus{
+    outline: none;
+}
+
+#Middle{
+    margin: 0 1%;
+}
+
+.Write-Items-2{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #fff;
+    display: flex;
+}
+
+.Write-Items-2 > p{
+    width: 80px;
+    height: auto;
+    margin-right: 4%;
+    margin-top: 24px;
+}
+
+
+.Write-Items-Content{
+    width: auto;
+    height: auto;
+}
+
+.Write-Items-Content > div{
+    margin: 4% 0;
+}
+
+.Write-Items-Content > div:first-child{
+    width: 600px;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.Write-Items-Content > div:first-child > label{
+    width: 80px;
+    height: auto;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.Write-Items-Content > div:first-child > input{
+    width: 12px;
+    height: 12px;
+    margin-right:2%;
+    display: flex;
+    align-items: center;
+}
+
+.Write-Items-Content > div:nth-child(2){
+    width: 600px;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.Write-Items-Content > div:nth-child(2) > label{
+    width: 80px;
+    height: auto;
+}
+
+.Write-Items-Content > div:nth-child(2) > input{
+    margin:0 2%;
+    width: 220px;
+    height: 34px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    padding: 0 1%;
+    color: #fff;
+}
+
+.Write-Items-Content > div:nth-child(2) > input::placeholder{
+    color: #fff;
+}
+
+.Write-Items-Content > div:nth-child(3){
+    width: 600px;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.Write-Items-Content > div:nth-child(3) > label{
+    width: 80px;
+    height: auto;
+}
+
+.Write-Items-Content > div:nth-child(3) > input{
+    margin:0 2%;
+    width: 220px;
+    height: 34px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    padding: 0 1%;
+    color: #fff;
+}
+
+.Write-Items-Content > div:nth-child(4){
+    width: 600px;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.Write-Items-Content > div:nth-child(4) > label{
+    width: 80px;
+    height: auto;
+}
+
+.Write-Items-Content > div:nth-child(4) > input{
+    margin:0 2%;
+    width: 220px;
+    height: 34px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    padding: 0 1%;
+    color: #fff;
+}
+
+.Write-Items-Content > div:nth-child(2) > input:focus{
+    outline: none;
+}
+
+.Write-Items-Content > div:nth-child(3) > input:focus{
+    outline: none;
+}
+
+.Write-Items-Content > div:nth-child(4) > input:focus{
+    outline: none;
+}
+
+
+.Write-Items > span{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.radio{
+    width: 600px;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.radio > label{
+    width: 80px;
+    height: auto;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.radio > input{
+    width: 12px;
+    height: 12px;
+    margin-right:2%;
+    display: flex;
+    align-items: center;
+}
+
+.Write-Items > span{
+    margin-right: 4%;
+}
+
+#name{
+    width: 220px;
+    height: 34px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 0 0.5%;
+    color: #fff;
+}
+
+#name::placeholder{
+    color: #fff;
+}
+
+#name:focus{
+    outline: none;
+}
+
+#Tel{
+    width: 220px;
+    height: 34px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 0 0.5%;
+    color: #fff;
+}
+
+#Tel:focus{
+    outline: none;
+}
+
+#Tel::placeholder{
+    color: #fff;
+}
+
+#E-mail-Content{
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+#E-mail-Content > p{
+    width: auto;
+    height: auto;
+    margin: 0 1%;
+}
+
+#E-mail-Content > input{
+    width: 220px;
+    height: 34px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 0 0.5%;
+    color: #fff;
+}
+
+#E-mail-Content > select{
+    width: 220px;
+    height: 34px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 0 0.5%;
+    margin-left: 1%;
+}
+
+#E-mail-Content > input,select:focus{
+    outline: none;
+}
+
+#Title{
+    width: 717px;
+    height: 34px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 0 0.5%;        
+}
+
+#Title::placeholder{
+    color: #fff;
+}
+
+#Title:focus{
+    outline: none;
+}
+
+.TextArea-Wrapper{
+    width: auto;
+    height: auto;
+    margin: 1% 0;
+}
+
+#Content{
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: transparent;
+    width: 719px;
+    height: 214px;
+    padding:0.5%; 
+    font-size: 15px;       
+}
+
+#Content::placeholder{
+    color: #fff;
+    font-size: 15px;
+}
+
+#Content:focus{
+    outline: none;
+}
+
+.TextArea-Wrapper > p{
+    font-size: 13px;
+    margin: 1% 0;
+}
+
+.Caution{
+    width: auto;
+    height: auto;
+    font-size: 14px;
+    line-height: 28px;
+    margin: 2% 0;
+}
+
+.terms-conditions-wrapper{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.terms-conditions-wrapper > div{
+    display: flex;
+}
+
+.terms-conditions-wrapper > div > input{
+    width: auto;
+    height: auto;
+    margin-right: 1%;
+}
+
+.terms-conditions-wrapper > div > label{
+    width: auto;
+    height: auto;
+    font-size: 14px;
+}
+
+.terms-conditions-wrapper > button{
+    width: 105px;
+    height: 32px;
+    background-color: transparent;
+    color: #fff;
+    border: #fff solid 1px;
+    cursor: pointer;
+}
+
+.Button-Wrap{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: 4% 0;
+    justify-content: center;
+}
+
+.Button-Wrap > button{
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    width: 65px;
+    height: 36px;
+    margin: 0 0.5%;
+}
+
+/* 푸터시작 */
+footer{
+    width: 100%;
+    height: 300px;
+    border-top: 2px solid #054AA5;
+}
+
+footer > p{
+    height: auto;
+    text-align: center;
+}
+
+footer > p:first-child{
+    font-size: 20px;
+    color: #054AA5;
+    font-weight: bold;
+    margin: 40px 0;
+}
+
+footer > p > span{
+    font-size: 15px;
+}
+
+footer > p > span::after{
+    content: ' | ';
+}
+
+footer > p > span:last-child::after{
+    content: ' ';
+}
+
+.bottomContent{
+    display: flex;
+    height: auto;
+    text-align: center;
+}
+
+.lastPTag{
+    margin: 50px;
+    width: 100%;
+}
+
+strong{
+    color: #054AA5;
+}
+
+.FamilySite{
+    width: 150px;
+    height: 30px;
+    font-size: 12px;
+    color: #054AA5;
+    float: right;
+    margin-right: 5%;
+    font-weight: bold;
+}
